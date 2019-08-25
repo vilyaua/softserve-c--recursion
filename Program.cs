@@ -32,7 +32,7 @@ namespace softserve_c__recursion
 
                 operList.Remove(item);
 
-                if (mylist.Count >= 1)
+                if (mylist.Count > 0)
                 {
                     output(operList);
                 }
