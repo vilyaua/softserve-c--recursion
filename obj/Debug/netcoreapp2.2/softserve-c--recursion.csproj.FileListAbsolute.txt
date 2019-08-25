@@ -1,0 +1,11 @@
+/home/vilyaua/softserve/softserve-c--recursion/bin/Debug/netcoreapp2.2/softserve-c--recursion.deps.json
+/home/vilyaua/softserve/softserve-c--recursion/bin/Debug/netcoreapp2.2/softserve-c--recursion.runtimeconfig.json
+/home/vilyaua/softserve/softserve-c--recursion/bin/Debug/netcoreapp2.2/softserve-c--recursion.runtimeconfig.dev.json
+/home/vilyaua/softserve/softserve-c--recursion/bin/Debug/netcoreapp2.2/softserve-c--recursion.dll
+/home/vilyaua/softserve/softserve-c--recursion/bin/Debug/netcoreapp2.2/softserve-c--recursion.pdb
+/home/vilyaua/softserve/softserve-c--recursion/obj/Debug/netcoreapp2.2/softserve-c--recursion.csprojAssemblyReference.cache
+/home/vilyaua/softserve/softserve-c--recursion/obj/Debug/netcoreapp2.2/softserve-c--recursion.csproj.CoreCompileInputs.cache
+/home/vilyaua/softserve/softserve-c--recursion/obj/Debug/netcoreapp2.2/softserve-c--recursion.AssemblyInfoInputs.cache
+/home/vilyaua/softserve/softserve-c--recursion/obj/Debug/netcoreapp2.2/softserve-c--recursion.AssemblyInfo.cs
+/home/vilyaua/softserve/softserve-c--recursion/obj/Debug/netcoreapp2.2/softserve-c--recursion.dll
+/home/vilyaua/softserve/softserve-c--recursion/obj/Debug/netcoreapp2.2/softserve-c--recursion.pdb

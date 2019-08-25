@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vilyaua/softserve/softserve-c--recursion/softserve-c--recursion.csproj": {}
+  },
+  "projects": {
+    "/home/vilyaua/softserve/softserve-c--recursion/softserve-c--recursion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vilyaua/softserve/softserve-c--recursion/softserve-c--recursion.csproj",
+        "projectName": "softserve-c--recursion",
+        "projectPath": "/home/vilyaua/softserve/softserve-c--recursion/softserve-c--recursion.csproj",
+        "packagesPath": "/home/vilyaua/.nuget/packages/",
+        "outputPath": "/home/vilyaua/softserve/softserve-c--recursion/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/home/vilyaua/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
