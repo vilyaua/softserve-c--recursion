@@ -60,7 +60,7 @@ namespace softserve_c__recursion
 
             System.Console.Write("Source");
             output(mySourceList);
-            System.Console.WriteLine("\n...FinishedSource. Press a Key");
+            System.Console.WriteLine("\n...Finished Source. Press a Key");
             Console.ReadKey();
             System.Console.Write("\nNegative");
             output(myNegativeList);
@@ -68,7 +68,7 @@ namespace softserve_c__recursion
             //Console.ReadKey();
             System.Console.Write("\nRest");
             output(myRestList);
-            System.Console.WriteLine("\n...FinishedRest");
+            System.Console.WriteLine("\n...Finished Rest");
         }
     }
 }
