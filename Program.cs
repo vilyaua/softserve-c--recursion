@@ -9,54 +9,64 @@ namespace softserve_c__recursion
         {
             sbyte lowest = -100;
             sbyte highest = 100;
+            int size = 60000;
             Random rnd = new Random();
             
-            sbyte[] arr = new sbyte[ Math.Abs(lowest) + Math.Abs(highest) + 1 ];
+            sbyte[] source = new sbyte[ size ];
 
-            void init(sbyte low, sbyte high)
+            sbyte[] init(sbyte[] arr, sbyte low, sbyte high)
             {
-                int cur = 0;
-                for (sbyte i = low; i <= high; i++)
+                for (int i = 0; i < size; i++)
                 {
-                    arr[cur++] = i;
+                    int random = rnd.Next( lowest, highest + 1 );
+                    arr[i] = (sbyte)random;
                 }
+
+                return arr;
             }
 
-            void output(ArrayList mylist)
+            void output(ArrayList operList)
             {
-                ArrayList operList = mylist;
+                //ArrayList operList = outList;
                 int random = rnd.Next(0, operList.Count);
-                sbyte item = (sbyte)mylist[random];
+                sbyte item = (sbyte)operList[random];
 
-                System.Console.WriteLine($"{ item }");
+                System.Console.Write($" { item } ");
 
                 operList.Remove(item);
 
-                if (mylist.Count > 0)
+                if (operList.Count > 0)
                 {
                     output(operList);
                 }
             }
 
-            init(lowest, highest);
+            init(source, lowest, highest);
 
             System.Collections.ArrayList myNegativeList = new System.Collections.ArrayList();
             System.Collections.ArrayList myRestList = new System.Collections.ArrayList();
+            System.Collections.ArrayList mySourceList = new System.Collections.ArrayList();
 
-            for (int i = 0; i < arr.Length; i++)
+            for (int i = 0; i < source.Length; i++)
             {
-                if (arr[i] < 0)
+                if (source[i] < 0)
                 {
-                    myNegativeList.Add(arr[i]);
+                    myNegativeList.Add(source[i]);
                 }
                 else
                 {
-                    myRestList.Add(arr[i]);
+                    myRestList.Add(source[i]);
                 }
+                mySourceList.Add(source[i]);
             }
 
+            System.Console.Write("Source");
+            output(mySourceList);
+            System.Console.Write("\nNegative");
             output(myNegativeList);
+            System.Console.Write("\nRest");
             output(myRestList);
+            System.Console.WriteLine();
         }
     }
 }
