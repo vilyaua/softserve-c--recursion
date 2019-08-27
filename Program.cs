@@ -41,9 +41,9 @@ namespace softserve_c__recursion
 
             init(source, lowest, highest);
 
-            System.Collections.ArrayList myNegativeList = new System.Collections.ArrayList();
-            System.Collections.ArrayList myRestList = new System.Collections.ArrayList();
-            System.Collections.ArrayList mySourceList = new System.Collections.ArrayList();
+            ArrayList myNegativeList = new ArrayList();
+            ArrayList myRestList = new ArrayList();
+            ArrayList mySourceList = new ArrayList();
 
             for (int i = 0; i < source.Length; i++)
             {
