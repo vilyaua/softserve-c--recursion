@@ -21,13 +21,11 @@ namespace softserve_c__recursion
                     int random = rnd.Next( lowest, highest + 1 );
                     arr[i] = (sbyte)random;
                 }
-
                 return arr;
             }
 
             void output(ArrayList operList)
             {
-                //ArrayList operList = outList;
                 int random = rnd.Next(0, operList.Count);
                 sbyte item = (sbyte)operList[random];
 
